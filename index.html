@@ -4,16 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zona Noticias - Stream</title>
+    <title>Zona Hits - En Vivo</title>
 
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <iframe
-      src="https://steamcommunity.com/broadcast/watch/76561198193683262/#responsive_page_menu"
-      frameborder="0"
-      id="stream"
-    ></iframe>
+    <div id="iframe-wrapper">
+      <iframe
+        src="https://steamcommunity.com/broadcast/watch/76561198193683262/"
+        frameborder="0"
+        id="stream"
+        scrolling="no"
+      ></iframe>
+      <div id="iframe-overlay"></div>
+    </div>
 
     <script src="jquery/jquery.min.js"></script>
     <script src="js/main.js"></script>

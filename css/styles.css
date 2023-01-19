@@ -6,6 +6,19 @@
 }
 
 #stream {
+  /* margin-top: -104px; */
   width: 100vw;
-  height: 1000vh;
+  height: 179vh;
+}
+
+#iframe-wrapper {
+  position: relative;
+}
+#iframe-overlay {
+  /* Adjust values as needed */
+  height: 1000px;
+  width: 100vw;
+  background-color: #fff;
+  position: relative;
+  top: -57vh;
 }
