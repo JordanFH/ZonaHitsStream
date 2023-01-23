@@ -11,7 +11,8 @@ body, html{
 
 #stream {
   position: absolute;
-  clip: rect(0px, 100%, 100vh, 0px);
+  clip: rect(0px, 82vw, 104vh, 0px);
+  left: 9vw;
 }
 
 @media only screen and (max-width: 910px) {
