@@ -6,19 +6,18 @@
 }
 
 #stream {
-  /* margin-top: -104px; */
-  width: 100vw;
-  height: 179vh;
+  position: absolute;
+  clip: rect(0px, 100%, 100vh, 0px);
 }
 
-#iframe-wrapper {
-  position: relative;
+@media only screen and (max-width: 910px) {
+  #stream {
+    margin-top: -62px;
+  }
 }
-#iframe-overlay {
-  /* Adjust values as needed */
-  height: 1000px;
-  width: 100vw;
-  background-color: #fff;
-  position: relative;
-  top: -57vh;
+
+@media only screen and (min-width: 911px) {
+  #stream {
+    margin-top: -104px;
+  }
 }
