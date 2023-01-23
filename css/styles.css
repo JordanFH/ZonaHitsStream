@@ -5,6 +5,10 @@
   overflow-x: hidden;
 }
 
+body, html{
+  background-color: #23262C;
+}
+
 #stream {
   position: absolute;
   clip: rect(0px, 100%, 100vh, 0px);
