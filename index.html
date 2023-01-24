@@ -7,20 +7,19 @@
     <title>Zona Hits - En Vivo</title>
 
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <div id="content">
-      <div style="height: 100vh">
-        <iframe
-          id="stream"
-          src="https://steamcommunity.com/broadcast/watch/76561198193683262/"
-          scrolling="no"
-          frameborder="0"
-          height="104%"
-          width="100%"
-        ></iframe>
-      </div>
+    <div class="wrapper">
+      <iframe
+        id="stream"
+        src="https://steamcommunity.com/broadcast/watch/76561198193683262/"
+        scrolling="no"
+        frameborder="0"
+        webkitAllowFullScreen
+        mozallowfullscreen
+        allowfullscreen
+      ></iframe>
     </div>
     <script src="jquery/jquery.min.js"></script>
     <script src="js/main.js"></script>
